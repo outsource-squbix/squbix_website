@@ -3,13 +3,21 @@ import ReactDOM from 'react-dom';
 import { NavLink } from 'react-router-dom';
 import Hcard from './Hcard'
 import Hdata from './Hdata'
-import web_shine from './Video/web_shine.mp4'
+import shine from './Video/shine.gif'
 
 const Home = () => {
    
     return (
         <>
-<div className="container"></div>
+        <img style={{
+  height:'100%',
+  width: '100%',
+  position: 'absolute',
+  objectFit:'cover',
+  // zIndex: '-1'
+}} src={shine} alt="" />
+
+{/* 
 <video autoPlay={true} muted={true} loop={true}
 style={{
   height:'100%',
@@ -19,9 +27,9 @@ style={{
   // zIndex: '-1'
 }}
 >
-  <source src={web_shine} type="video/mp4" />
+  <source src={shine} type="video/gif" />
   Your browser does not support HTML5 video.
-</video>
+</video> */}
 
 
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">

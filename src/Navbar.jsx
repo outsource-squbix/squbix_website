@@ -155,7 +155,7 @@ to='/'>OTHER SERVICES</NavLink>
 <li className="nav-item"><NavLink data-toggle="collapse" data-target="#navbarSupportedContent" className="nav-link" to='/education'>TRAINING & EDUCATION</NavLink></li>
 
 {/* <li className="nav-item"><NavLink className="nav-link" to='/blog'>BLOG</NavLink></li> */}
-<li className="nav-item"><NavLink data-toggle="collapse" data-target="#navbarSupportedContent" to='/Squbix/contact'><button className="btn_cnt">CONTACT
+<li className="nav-item"><NavLink data-toggle="collapse" data-target="#navbarSupportedContent" to='/contact'><button className="btn_cnt">CONTACT
 </button></NavLink></li>
     </ul>
   </div>
