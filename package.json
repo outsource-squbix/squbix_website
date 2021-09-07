@@ -10,6 +10,7 @@
     "alert": "^5.0.10",
     "axios": "^0.21.1",
     "context": "^1.1.4",
+    "firebase": "^9.0.1",
     "jquery": "^3.6.0",
     "react": "^17.0.2",
     "react-alert": "^7.0.3",
@@ -45,6 +46,7 @@
     ]
   },
   "devDependencies": {
+    "dotenv": "^8.2.0",
     "http-proxy-middleware": "^0.19.1"
   }
 }
