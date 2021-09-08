@@ -45,6 +45,9 @@ import Web from './Services/Web'
 // import Defiyield from './DEFI/Defiyield'
 
 import Sidesocial from './Sidesocial'
+import Verify from './Certificate_Verification/Verify'
+import Error from './Certificate_Verification/Error'
+
 
 const App = () => {
   return(
@@ -92,8 +95,8 @@ const App = () => {
       <Route path='/DEFI/defistacking' component={Defistacking}/>
       <Route path='/DEFI/defiwallet' component={Defiwallet}/>
       <Route path='/DEFI/defiyield' component={Defiyield}/> */}
-
-  
+      <Route exact path='/certificate/verify/:hash' component={Verify} />
+      <Route exact path='/certificate/verify' component={Error}/>  
     </Switch>
     <Sidesocial />
     <Footer/>
