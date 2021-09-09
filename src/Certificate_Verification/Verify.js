@@ -14,7 +14,6 @@ const Verify = () => {
   const [isLoading, setLoading] = useState(true);
 
   useEffect(() => {
-    console.log("Hash", hash);
     const getData = async () => {
       const docRef = doc(db, "Certificates", hash);
       const docSnap = await getDoc(docRef);
