@@ -2,8 +2,9 @@ import { React, useEffect, useState } from "react";
 import { getFirestore, doc, getDoc } from "firebase/firestore";
 import { app } from "./base";
 import { useParams } from "react-router";
+import styled from "styled-components";
 import Error from "./Error";
-import "./Verify.css";
+import Logo from "../Assets/logo.png";
 const db = getFirestore(app);
 
 const Verify = () => {
@@ -33,32 +34,86 @@ const Verify = () => {
   }, [hash]);
 
   return (
-    <div>
-      {isLoading ? (
-        <div>
-          <h1
-            class="display-2"
-            style={{ textAlign: "center", marginTop: "50vh" }}
-          >
-            Loading...
-          </h1>
-        </div>
-      ) : isDataExist ? (
-        <div className="display-details-div">
-          <h1 class="display-6">Candidate Name: {data.candidate_name}</h1>
-          <h1 class="display-6">Issuer: {data.issuer}</h1>
-          <h1 class="display-6">Issue Date: {data["issue_date"]}</h1>
-          <h1 class="display-6">Role: {data.role}</h1>
-          <h1 class="display-6">Certificate Type: {data.type}</h1>
-          <h1 class="display-6">
-            Status: <span style={{ color: "green" }}>Issued</span>
-          </h1>
-        </div>
-      ) : (
-        <Error />
-      )}
-    </div>
+    <>
+      <div className="container">
+        <Header className="text-center">
+          {isLoading ? (
+            <div class="card">
+              <div class="card-body">
+                <h6 class="card-subtitle mb-2 text-muted">
+                  Certificate Authenticator
+                </h6>
+                <hr />
+                <p class="card-text" style={{ color: "blue" }}>
+                  Loading .....
+                </p>
+              </div>
+            </div>
+          ) : isDataExist ? (
+            <div class="card">
+              <div class="card-body">
+                <Watermark>
+                  <img src={Logo} alt="" />
+                  <h6 class="card-subtitle mb-2 text-muted">
+                    Certificate Authenticator
+                  </h6>
+                  <hr />
+                  <p class="card-text">
+                    Name: <b> {data.candidate_name}</b>
+                  </p>
+                  <p class="card-text">
+                    Issuer: <b>{data.issuer}</b>
+                  </p>
+
+                  <p class="card-text">
+                    Issue Date: <b> {data["issue_date"]}</b>
+                  </p>
+                  <p class="card-text">
+                    Role:<b> {data.role}</b>
+                  </p>
+                  <p class="card-text">
+                    Certificate Type: <b> {data.type}</b>
+                  </p>
+                  <h5>
+                    <b>Status:</b>
+                    <span style={{ color: "green", fontWeight: "800" }}>
+                      {" "}
+                      Issued
+                    </span>
+                  </h5>
+                </Watermark>
+              </div>
+            </div>
+          ) : (
+            <Error />
+          )}
+        </Header>
+      </div>
+    </>
   );
 };
 
 export default Verify;
+const Header = styled.div`
+  margin-top: 200px;
+  margin-bottom: 150px;
+  position: relative;
+  width: 50%;
+  left: 50%;
+  transform: translate(-50%);
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+`;
+const Watermark = styled.div`
+  > img {
+    position: absolute;
+    height: 250px;
+    z-index: -10;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+    opacity: 0.3;
+  }
+`;
