@@ -4,7 +4,7 @@ import { app } from "./base";
 import { useParams } from "react-router";
 import styled from "styled-components";
 import Error from "./Error";
-import Logo from "../Assets/logo.png";
+import Logo from "../../Assets/logo.png";
 const db = getFirestore(app);
 
 const Verify = () => {
