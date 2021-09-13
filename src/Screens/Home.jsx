@@ -238,7 +238,7 @@ style={{
         </p>
         <div class="row">
           <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 Services-tab  item">
-            <NavLink style={{ textDecoration: "none" }} to="/Cryptoex/dse">
+            <NavLink style={{ textDecoration: "none" }} to="/dse">
               <div class="folded-corner service_tab_1 h-100">
                 <div class="text">
                   <img
@@ -260,7 +260,7 @@ style={{
             </NavLink>
           </div>
           <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 Services-tab item">
-            <NavLink style={{ textDecoration: "none" }} to="/Cryptoex/dex">
+            <NavLink style={{ textDecoration: "none" }} to="/dex">
               <div class="folded-corner service_tab_1 h-100">
                 <div class="text">
                   <img
@@ -283,10 +283,7 @@ style={{
             </NavLink>
           </div>
           <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 Services-tab item">
-            <NavLink
-              style={{ textDecoration: "none" }}
-              to="/Blockchain/pvt_b_chain"
-            >
+            <NavLink style={{ textDecoration: "none" }} to="/pvt_b_chain">
               <div class="folded-corner service_tab_1 h-100">
                 <div class="text">
                   <img
@@ -327,10 +324,7 @@ style={{
             </NavLink>
           </div>
           <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 Services-tab item">
-            <NavLink
-              style={{ textDecoration: "none" }}
-              to="/Blockchain/smartcontract"
-            >
+            <NavLink style={{ textDecoration: "none" }} to="/smartcontract">
               <div class="folded-corner service_tab_1 h-100">
                 <div class="text">
                   <img
@@ -351,7 +345,7 @@ style={{
             </NavLink>
           </div>
           <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 Services-tab item">
-            <NavLink style={{ textDecoration: "none" }} to="/Blockchain/nft">
+            <NavLink style={{ textDecoration: "none" }} to="/nft">
               <div class="folded-corner service_tab_1 h-100">
                 <div class="text">
                   <img
@@ -371,7 +365,7 @@ style={{
             </NavLink>
           </div>
           <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 Services-tab item">
-            <NavLink style={{ textDecoration: "none" }} to="/Blockchain/dapps">
+            <NavLink style={{ textDecoration: "none" }} to="/dapps">
               <div class="folded-corner service_tab_1 h-100">
                 <div class="text">
                   <img
