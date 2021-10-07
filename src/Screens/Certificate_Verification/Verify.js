@@ -61,6 +61,10 @@ const Verify = () => {
                     Name: <b> {data.candidate_name}</b>
                   </p>
                   <p class="card-text">
+                    Certificate Number: <b>{data.certificate_number}</b>
+                  </p>
+
+                  <p class="card-text">
                     Issuer: <b>{data.issuer}</b>
                   </p>
 
