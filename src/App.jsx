@@ -95,8 +95,8 @@ const App = () => {
       <Route path='/DEFI/defistacking' component={Defistacking}/>
       <Route path='/DEFI/defiwallet' component={Defiwallet}/>
       <Route path='/DEFI/defiyield' component={Defiyield}/> */}
-        <Route exact path="/certificate/verify/:hash" component={Verify} />
-        <Route exact path="/certificate/verify" component={Error} />
+        <Route path="/certificate/verify/:hash" component={Verify} />
+        <Route path="/certificate/verify" component={Error} />
         <Route component={Page_404} />
       </Switch>
       <Sidesocial />

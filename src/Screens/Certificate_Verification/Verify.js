@@ -68,7 +68,8 @@ const Verify = () => {
                     Issue Date: <b> {data["issue_date"]}</b>
                   </p>
                   <p class="card-text">
-                    Role:<b> {data.role}</b>
+                    {data.role ? "Role: " : null}
+                    <b> {data.role}</b>
                   </p>
                   <p class="card-text">
                     Certificate Type: <b> {data.type}</b>

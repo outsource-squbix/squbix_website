@@ -300,7 +300,6 @@ to='/'>DEFI</NavLink>
                 TRAINING & EDUCATION
               </NavLink>
             </li>
-
             {/* <li className="nav-item"><NavLink className="nav-link" to='/blog'>BLOG</NavLink></li> */}
             <li className="nav-item">
               <NavLink
