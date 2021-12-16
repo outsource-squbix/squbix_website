@@ -48,6 +48,8 @@ import Sidesocial from "./Components/Sidesocial";
 import Verify from "./Screens/Certificate_Verification/Verify";
 import Error from "./Screens/Certificate_Verification/Error";
 import Page_404 from "./Screens/Page404/Page_404";
+import ErrorException from "./Screens/EmployeeDetails/ErrorException";
+import Details from "./Screens/EmployeeDetails/Details";
 
 const App = () => {
   return (
@@ -97,6 +99,9 @@ const App = () => {
       <Route path='/DEFI/defiyield' component={Defiyield}/> */}
         <Route path="/certificate/verify/:hash" component={Verify} />
         <Route path="/certificate/verify" component={Error} />
+        <Route path="/employee/details/:hash" component={Details} />
+        <Route path="/employee/details" component={ErrorException} />
+
         <Route component={Page_404} />
       </Switch>
       <Sidesocial />
