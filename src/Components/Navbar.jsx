@@ -37,10 +37,10 @@ const Navbar = () => {
       <nav class="navbar navbar-expand-lg">
         <div className="row">
           <NavLink class="navbar-brand" to="/">
-            <img className="img_logo" src="/images/sdl.png" alt="logo" />
+            <img className="img_logo" src="/images/squbi_logo.png" alt="logo" />
           </NavLink>
-          <NavLink to="/">
-            {/* <div className="navbar-text">
+          {/* <NavLink to="/">
+            <div className="navbar-text">
               <div className="col">
                 <h1 className="logo_text_main">SQUBIX DIGITAL</h1>
               </div>
@@ -49,8 +49,8 @@ const Navbar = () => {
                   A SWNGlobal Blockchain Service
                 </small>
               </div>
-            </div> */}
-          </NavLink>
+            </div>
+          </NavLink> */}
         </div>
 
         <button
