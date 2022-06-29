@@ -22,7 +22,8 @@ ul li {
 .img_logo {
   position: relative;
   /* background: url(../images/logo.png); */
-  width: 60px;
+  /* width: 60px; */
+  height: 60px;
   left: 20px;
   background-size: contain;
   -webkit-filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.2));
