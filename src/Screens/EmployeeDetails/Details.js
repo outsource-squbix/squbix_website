@@ -56,16 +56,14 @@ const Verify = () => {
                   </h6>
                   <hr />
                   <p class="card-text">
-                    Name: <b> {data.Name}</b>
+                    Name: <b> {data.name}</b>
                   </p>
                   <p class="card-text">
-                    Designation: <b>{data.Designation}</b>
+                    Designation: <b>{data.designation}</b>
                   </p>
-
                   <p class="card-text">
-                    Email: <b> {data.Email}</b>
+                    Email: <b> {data.email}</b>
                   </p>
-
                   <p class="card-text">
                     Employee ID: <b> {data.employee_id}</b>
                   </p>
