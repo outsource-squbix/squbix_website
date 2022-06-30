@@ -83,10 +83,13 @@ const Contact = () => {
                   </a>
                   <h4>Singapore Office</h4>
                   <p>
-                    #07-414, 121, <br />
-                    Rivervale Dr,
+                    {/* Squbix Digital pte ltd
+                    <br /> */}
+                    1 North Bridge Road, 
                     <br />
-                    Singapore - 540121
+                    #18-02 High Street Centre, 
+                    <br />
+                    Singapore - 179094
                   </p>
                 </div>
                 <div class="col-md-4">
@@ -95,7 +98,8 @@ const Contact = () => {
                   </a>
                   <h4>Bengaluru Office</h4>
                   <p>
-                    Ground Flr, E1 Block(Beech) <br />
+                    Ground Flr, E1 Block(Beech) 
+                    <br />
                     Manyata Embassy Business Park,
                     <br />
                     Outer Ring Road, Bangalore 560045, India
@@ -107,9 +111,11 @@ const Contact = () => {
                   </a>
                   <h4>Bhubaneswar Office</h4>
                   <p>
-                    PLOT NO-4474/7895 <br />
-                    TANKAPANI ROAD, MEGHESWAR COLONY <br />
-                    BHUBANESWAR 751018 India
+                    DCB 322, DLF Cyber City, 
+                    <br />
+                    Infocity, Patia, Bhubaneswar, 
+                    <br />
+                    Odisha - 751024, India
                   </p>
                 </div>
               </div>
