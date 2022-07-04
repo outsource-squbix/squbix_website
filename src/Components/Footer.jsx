@@ -55,20 +55,20 @@ const Footer = () => {
     	   <div class="col-xs-12 col-sm-6 col-md-2 footers-two">
     		    <h5 style={{color:'white'}}>Quick Links</h5>
     		    <ul class="list-unstyled">
-    			 <li><NavLink to='/Squbix/about'>About</NavLink></li>
+    			 <li><NavLink to='/about'>About</NavLink></li>
     		<li><NavLink to='/education'>Training And Education</NavLink></li>	 
-    			 <li> <NavLink to='/Squbix/career'>Career</NavLink></li>
-    			 <li><NavLink to='/Squbix/contact'>Contact</NavLink></li>
+    			 <li> <NavLink to='/career'>Career</NavLink></li>
+    			 <li><NavLink to='/contact'>Contact</NavLink></li>
     			 <li><NavLink to='/crypto_wallet'>DIGITAL WALLET</NavLink></li>
     			</ul>
     		</div>
     	   <div class="col-xs-12 col-sm-6 col-md-2 footers-three">
     		    <h5 style={{color:'white'}}>Quick Links</h5>
     		    <ul class="list-unstyled">
-    			 <li><NavLink to="/Blockchain/pvt_b_chain">Private Blockchain</NavLink></li>
-    			 <li><NavLink to="/Blockchain/smartcontract">Smart Contract Developement</NavLink></li>
-    			 <li><NavLink to="/Blockchain/dapps">dApps Development</NavLink></li>
-    			 <li><NavLink to="/Cryptoex/dse">White Label Exchange</NavLink></li>
+    			 <li><NavLink to="/pvt_b_chain">Private Blockchain</NavLink></li>
+    			 <li><NavLink to="/smartcontract">Smart Contract Developement</NavLink></li>
+    			 <li><NavLink to="/dapps">dApps Development</NavLink></li>
+    			 <li><NavLink to="/dse">White Label Exchange</NavLink></li>
     			 {/* <li><NavLink to="/Cryptoex/dex">Decentralise/Centralise</NavLink></li> */}
     			</ul>
     		</div>
@@ -84,7 +84,7 @@ const Footer = () => {
        </div>
 	   <br/>
 	   <p className="text-center">
-   © Copyright 2016 - 2021 Squbix Digital Pte. Ltd. | All Rights Reserved.
+   © Copyright 2016 - 2022 Squbix Digital Pte. Ltd. | All Rights Reserved.
    </p>
    <br/>
    </div>
