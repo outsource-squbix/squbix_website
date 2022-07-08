@@ -85,8 +85,6 @@ const Navbar = () => {
                 <NavLink
                   data-toggle="collapse"
                   data-target="#navbarSupportedContent"
-                  data-toggle="collapse"
-                  data-target="#navbarSupportedContent"
                   className="dropdown-item"
                   to="/about"
                 >
@@ -96,16 +94,12 @@ const Navbar = () => {
                 <NavLink
                   data-toggle="collapse"
                   data-target="#navbarSupportedContent"
-                  data-toggle="collapse"
-                  data-target="#navbarSupportedContent"
                   className="dropdown-item"
                   to="/career"
                 >
                   Career
                 </NavLink>
                 <NavLink
-                  data-toggle="collapse"
-                  data-target="#navbarSupportedContent"
                   data-toggle="collapse"
                   data-target="#navbarSupportedContent"
                   className="dropdown-item"

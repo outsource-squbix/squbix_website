@@ -66,7 +66,7 @@ style={{
               <br />
 
               <p>
-                <NavLink class="btn btn-lg" role="button" to="/Squbix/about">
+                <NavLink class="btn btn-lg" role="button" to="/about">
                   <button className="btn_pvt">LEARN MORE</button>
                 </NavLink>
               </p>
@@ -88,7 +88,7 @@ style={{
               <br />
               <br />
               <p>
-                <NavLink class="btn btn-lg" role="button" to="/Squbix/contact">
+                <NavLink class="btn btn-lg" role="button" to="/contact">
                   <button className="btn_pvt">CONTACT</button>
                 </NavLink>
               </p>
